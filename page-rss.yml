@@ -1,0 +1,15 @@
+---
+tag-element: none
+content: |
+ <?xml version="1.0"?>
+ <rss version="2.0">
+  <channel>
+   <title>[[title]]</title>
+   <link>[[link]]</link>
+   <description>[[description]]</description>
+   <language>en-us</language>
+   <pubDate>[[pub-date]]</pubDate>
+   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+   [[content]]
+  </channel>
+ </rss>

@@ -1,0 +1,15 @@
+---
+tag-element: li
+content: |
+ <div class="post">
+  <h1>[[title]]</h1>
+  <div class="metadata">
+   <span class="pub-date">[[pub-date]]</span>
+   <ul class="tags">[[formatted-tags]]</ul>
+  </div>
+ 	  
+  <div class="post-content">
+   [[content]]
+  </div>
+ </div>
+ 

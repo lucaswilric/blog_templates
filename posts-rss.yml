@@ -1,0 +1,13 @@
+---
+tag-element: category
+content: |
+ <item>
+  <title>[[title]]</title>
+  <link>[[link]]</link>
+  <guid isPermaLink="true">[[link]]</guid>
+  <pubDate>[[rss-pub-date]]</pubDate>
+  [[formatted-tags]]
+  <description>
+   [[content]]
+  </description>
+ </item>
