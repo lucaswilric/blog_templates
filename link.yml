@@ -2,7 +2,7 @@
 tag-element: li
 content: |
  <li class="post-link">
-  <a href="[[link]]">[[title]]</a> - [[pub-date]]
+  <a href="[[rel-link]]">[[title]]</a> - [[pub-date]]
   <ul class="tags">
    [[formatted-tags]]
   </ul>

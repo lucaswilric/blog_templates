@@ -3,8 +3,8 @@ tag-element: category
 content: |
  <item>
   <title>[[title]]</title>
-  <link>[[link]]</link>
-  <guid isPermaLink="true">[[link]]</guid>
+  <link>[[abs-link]]</link>
+  <guid isPermaLink="true">[[abs-link]]</guid>
   <pubDate>[[rss-pub-date]]</pubDate>
   [[formatted-tags]]
   <description>
