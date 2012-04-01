@@ -1,14 +1,14 @@
 ---
 tag-element: li
 content: |
- <div class="post">
-  <h1>[[title]]</h1>
-  <div class="metadata">
+ <div class="post row">
+  <h2 class="offset1 span9"><a href="[[rel-link]]">[[title]]</a></h2>
+  <div class="metadata offset1 span9">
    <span class="pub-date">[[pub-date]]</span>
    <ul class="tags">[[formatted-tags]]</ul>
   </div>
- 	  
-  <div class="post-content">
+  
+  <div class="post-content offset1 span9">
    [[content]]
   </div>
  </div>
