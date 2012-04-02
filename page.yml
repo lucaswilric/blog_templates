@@ -12,7 +12,7 @@ content: |
   </head>
   <body>
    <section id="grid-system">
-    <div class="page-header row"><h1 class="span10"><a href="/index.html">[[blog-title]]</a></h1><a id="rss-icon" href="/rss.xml" class="span1"><img src="/img/feed-icon-28x28.png" /></a></div>
+    <div class="page-header row"><h1 class="span10"><a href="/">[[blog-title]]</a></h1><a id="rss-icon" href="/rss.xml" class="span1"><img src="/img/feed-icon-28x28.png" /></a></div>
     [[content]]
    </section>
   </body>
