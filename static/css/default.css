@@ -20,3 +20,12 @@ ul.tags { margin: 3px 0 9px 0; }
   background-color: #f4f4f4;
   border-radius: 10px;
 }
+
+.post-content img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
