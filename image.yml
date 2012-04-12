@@ -1,0 +1,12 @@
+---
+title: image
+defaults: {source: '', caption: ''}
+content: |
+ 
+ <div  class="post-image">
+  <a href="[[source]]">
+   <img src="[[source]]" title="[[caption]]" alt="[[caption]]" />
+   <span class="caption">[[caption]]</span>
+  </a>
+ </div>
+ 
