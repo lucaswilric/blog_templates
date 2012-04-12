@@ -3,10 +3,15 @@
 
 #grid-system { margin-left: 100px; }
 
+.post .metadata { 
+  text-align: right; 
+  margin-top: 8px;
+}
+
 .post .tags li { 
   list-style: none;
-  float: left; 
-  margin-right: 4px;
+  float: right; 
+  margin: 0 0 4px 4px;
   padding: 1px 4px;
   border-radius: 4px;
   background-color: #bee1f6;
@@ -16,16 +21,32 @@ ul.tags { margin: 3px 0 9px 0; }
 
 .post-content { 
   margin-top: 10px;
+  margin-bottom: 50px;
   padding: 10px 10px 10px 15px;
   background-color: #f4f4f4;
   border-radius: 10px;
 }
 
-.post-content img {
-  display: block;
-  margin: 0 auto;
+.post-content .post-image {
+  text-align: center;
+}
+
+.post-content .post-image a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-content .post-image a {
+  display: inline-block;
   padding: 10px;
   background-color: #fff;
   border-radius: 8px;
-  border: 1px solid #333;
+  border: 1px solid #999;
+  color: #333;
+  text-align: center;
+}
+
+.post-content .post-image img {
+  display: block;
+  margin-bottom: 10px;
 }
