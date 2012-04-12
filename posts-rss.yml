@@ -8,6 +8,8 @@ content: |
   <pubDate>[[rss-pub-date]]</pubDate>
   [[formatted-tags]]
   <description>
-   [[content]]
+   <![CDATA[
+    [[content]]
+   ]]>
   </description>
  </item>
