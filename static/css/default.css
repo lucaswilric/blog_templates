@@ -3,6 +3,8 @@
 
 #grid-system { margin-left: 100px; }
 
+.post { margin-bottom: 50px; }
+
 .post .metadata { 
   text-align: right; 
   margin-top: 8px;
@@ -21,7 +23,6 @@ ul.tags { margin: 3px 0 9px 0; }
 
 .post-content { 
   margin-top: 10px;
-  margin-bottom: 50px;
   padding: 10px 10px 10px 15px;
   background-color: #f4f4f4;
   border-radius: 10px;
@@ -49,4 +50,18 @@ ul.tags { margin: 3px 0 9px 0; }
 .post-content .post-image img {
   display: block;
   margin-bottom: 10px;
+}
+
+.post .post-links li {
+  list-style: none;
+  float: right;
+  margin: 0 0 5px 4px;
+  padding-right: 5px;
+  border-right: 1px solid #333;
+}
+
+.post .post-links li:first-child {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
 }
