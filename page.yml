@@ -7,8 +7,10 @@ content: |
    <title>[[title]]</title>
    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css" />
    <link rel="stylesheet" type="text/css" href="/css/default.css" />
+   <link type="text/css" href="/jplayer/jplayer.blue.monday.css" rel="stylesheet" />
    <link rel=alternate" type="application/rss+xml" title="RSS" href="[[blog-url]]/rss.xml" />
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   <script src="/js/jquery.jplayer.min.js"></script>
   </head>
   <body>
    <section id="grid-system">
