@@ -1,0 +1,5 @@
+---
+title: enclosure
+defaults: {url: '', type: 'application/unknown', length: ''}
+html: |
+ <enclosure url="<%= url %>" type="<%= type %>" length="<%= length %>" />

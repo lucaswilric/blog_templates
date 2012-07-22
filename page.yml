@@ -1,21 +1,21 @@
 ---
-tag-element: li
-content: |
+tag_element: li
+html: |
  <!DOCTYPE html>
  <html>
   <head>
-   <title>[[title]]</title>
+   <title><%= title %></title>
    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css" />
    <link rel="stylesheet" type="text/css" href="/css/default.css" />
    <link type="text/css" href="/jplayer/jplayer.blue.monday.css" rel="stylesheet" />
-   <link rel=alternate" type="application/rss+xml" title="RSS" href="[[blog-url]]/rss.xml" />
+   <link rel=alternate" type="application/rss+xml" title="RSS" href="<%= blog_url %>/rss.xml" />
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
    <script src="/js/jquery.jplayer.min.js"></script>
   </head>
   <body>
    <section id="grid-system">
-    <div class="page-header row"><h1 class="span10"><a href="/">[[blog-title]]</a></h1><a id="rss-icon" href="/rss.xml" class="span1"><img src="/img/feed-icon-28x28.png" /></a></div>
-    [[content]]
+    <div class="page-header row"><h1 class="span10"><a href="/"><%= blog_title %></a></h1><a id="rss-icon" href="/rss.xml" class="span1"><img src="/img/feed-icon-28x28.png" /></a></div>
+    <%= content %>
    </section>
   </body>
  </html>

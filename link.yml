@@ -1,9 +1,9 @@
 ---
-tag-element: li
-content: |
+tag_element: li
+html: |
  <li class="post-link">
-  <a href="[[rel-link]]">[[title]]</a> - [[pub-date]]
+  <a href="<%= rel_link %>"><%= title %></a> - <%= pub_date %>
   <ul class="tags">
-   [[formatted-tags]]
+   <%= formatted_tags %>
   </ul>
  </li>

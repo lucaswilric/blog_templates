@@ -1,7 +1,7 @@
 ---
-content: |
+html: |
  <div class="post-audio"> 
-  <div id="[[id]]" class="jp-jplayer"></div>
+  <div id="<%= id %>" class="jp-jplayer"></div>
   <div id="jp_container_1" class="jp-audio">
     <div class="jp-type-single">
       <div class="jp-gui jp-interface">
@@ -32,7 +32,7 @@ content: |
       </div>
       <div class="jp-title">
         <ul>
-          <li>[[title]]</li>
+          <li><%= title %></li>
         </ul>
       </div>
       <div class="jp-no-solution">
@@ -41,13 +41,13 @@ content: |
       </div>
     </div>
   </div>
-  <a href="[[src]]" target="_blank">Download audio</a>
+  <a href="<%= src %>" target="_blank">Download audio</a>
    <script type="text/javascript">
     $(document).ready(function(){
-      $("#[[id]]").jPlayer({
+      $("#<%= id %>").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            mp3: "[[src]]"
+            mp3: "<%= src %>"
           });
         },
         swfPath: "/js",

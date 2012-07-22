@@ -1,12 +1,12 @@
 ---
 title: image
 defaults: {source: '', caption: ''}
-content: |
+html: |
  
  <div  class="post-image">
-  <a href="[[source]]">
-   <img src="[[source]]" title="[[caption]]" alt="[[caption]]" />
-   <span class="caption">[[caption]]</span>
+  <a href="<%= source %>">
+   <img src="<%= source %>" title="<%= caption %>" alt="<%= caption %>" />
+   <span class="caption"><%= caption %></span>
   </a>
  </div>
  

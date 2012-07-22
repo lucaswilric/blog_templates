@@ -1,15 +1,16 @@
 ---
-tag-element: category
-content: |
+tag_element: category
+html: |
  <item>
-  <title>[[title]]</title>
-  <link>[[abs-link]]</link>
-  <guid isPermaLink="true">[[abs-link]]</guid>
-  <pubDate>[[rss-pub-date]]</pubDate>
-  [[formatted-tags]]
+  <title><%= title %></title>
+  <link><%= abs_link %></link>
+  <guid isPermaLink="true"><%= abs_link %></guid>
+  <pubDate><%= rss_pub_date %></pubDate>
+  <%= formatted_tags %>
   <description>
    <![CDATA[
-    [[content]]
+    <%= content %>
    ]]>
   </description>
+  <%= enclosure(:url => abs_enclosure, :length => 999) unless [nil, ''].include? abs_enclosure %>
  </item>
