@@ -1,4 +1,5 @@
 ---
+defaults: {title: '', src: '', id: ''}
 html: |
  <div class="post-audio"> 
   <div id="<%= id %>" class="jp-jplayer"></div>

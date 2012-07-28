@@ -13,4 +13,5 @@ html: |
    ]]>
   </description>
   <%= enclosure(:url => abs_enclosure, :length => 999) unless [nil, ''].include? abs_enclosure %>
+  <fileNameBase><%= file_name %></fileNameBase>
  </item>

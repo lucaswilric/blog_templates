@@ -13,8 +13,8 @@ html: |
   </div>
   
   <ul class="metadata post-links offset7 span3">
-   <li><a href="https://github.com/lucaswilric/blog_posts/commits/master/<%= file_name %>.yml">History</a></li>
-   <li><a href="https://github.com/lucaswilric/blog_posts/blob/master/<%= file_name %>.yml">Source</a></li>
+   <li><a href="http://github.com/lucaswilric/blog_posts/commits/master/<%= file_name %>.yml">History</a></li>
+   <li><a href="http://github.com/lucaswilric/blog_posts/blob/master/<%= file_name %>.yml">Source</a></li>
   </ul>
  </div>
  
