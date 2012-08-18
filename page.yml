@@ -14,7 +14,24 @@ html: |
   </head>
   <body>
    <section id="grid-system">
-    <div class="page-header row"><h1 class="span10"><a href="/"><%= blog_title %></a></h1><a id="rss-icon" href="/rss.xml" class="span1"><img src="/img/feed-icon-28x28.png" /></a></div>
+    <div class="row">
+      <div class="page-header">
+        <h1 class="span8">
+          <a href="/"><%= blog_title %></a>
+        </h1>
+        <a href="/rss.xml" id="rss-icon" class="span1">
+         <img src="/img/feed-icon-28x28.png" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span8">
+        <ul class="nav nav-pills">
+          <li class="pull-right"><a href="/">Home</a></li>
+          <li class="pull-right"><a href="/archive.html">Archive</a></li>
+        </ul>
+      </div>
+    </div>
     <%= content %>
    </section>
   </body>

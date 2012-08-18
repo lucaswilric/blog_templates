@@ -2,17 +2,17 @@
 tag_element: li
 html: |
  <div class="post row">
-  <h2 class="offset1 span6"><a href="/posts/<%= file_name %>.html"><%= title %></a></h2>
+  <h2 class="span6"><a href="/posts/<%= file_name %>.html"><%= title %></a></h2>
   <div class="metadata span3">
    <span class="pub-date"><%= pub_date %></span>
    <ul class="tags"><%= formatted_tags %></ul>
   </div>
   
-  <div class="post-content offset1 span9">
+  <div class="post-content span9">
    <%= content %>
   </div>
   
-  <ul class="metadata post-links offset7 span3">
+  <ul class="metadata post-links offset6 span3">
    <li><a href="http://github.com/lucaswilric/blog_posts/commits/master/<%= file_name %>.yml">History</a></li>
    <li><a href="http://github.com/lucaswilric/blog_posts/blob/master/<%= file_name %>.yml">Source</a></li>
   </ul>
