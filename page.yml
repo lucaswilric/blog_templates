@@ -3,12 +3,13 @@ tag_element: li
 html: |
  <!DOCTYPE html>
  <html>
-  <head>
+  <head profile="http://www.w3.org/2005/10/profile">
    <title><%= title %></title>
    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css" />
    <link rel="stylesheet" type="text/css" href="/css/default.css" />
    <link type="text/css" href="/jplayer/jplayer.blue.monday.css" rel="stylesheet" />
-   <link rel=alternate" type="application/rss+xml" title="RSS" href="<%= blog_url %>/rss.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="<%= blog_url %>/rss.xml" />
+   <link rel="icon" type="image/png" href="http://assets.lucasrichter.id.au/img/favicon.png" />
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
    <script src="/js/jquery.jplayer.min.js"></script>
   </head>
